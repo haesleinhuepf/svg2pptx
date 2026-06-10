@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "svg2pptx"
+version = "0.1.0"
+description = "Convert SVG files to PowerPoint (PPTX) presentations"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "BSD-3-Clause" }
+dependencies = [
+    "python-pptx",
+    "svglib",
+    "reportlab",
+]
+
+[project.scripts]
+svg2pptx = "svg2pptx._cli:main"
+svg2pptx2 = "svg2pptx._cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["svg2pptx*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

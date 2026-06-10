@@ -1,0 +1,3 @@
+[console_scripts]
+svg2pptx = svg2pptx._cli:main
+svg2pptx2 = svg2pptx._cli:main
