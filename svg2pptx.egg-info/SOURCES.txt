@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+svg2pptx/__init__.py
+svg2pptx/_cli.py
+svg2pptx/_converter.py
+svg2pptx.egg-info/PKG-INFO
+svg2pptx.egg-info/SOURCES.txt
+svg2pptx.egg-info/dependency_links.txt
+svg2pptx.egg-info/entry_points.txt
+svg2pptx.egg-info/requires.txt
+svg2pptx.egg-info/top_level.txt
+tests/test_converter.py
